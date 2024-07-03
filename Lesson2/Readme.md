@@ -34,6 +34,8 @@ message = 'Hello, World!'
 is_true = True 
 is_false = False
 ```
+在這個教程中，我們介紹了 Python 的基本數據型別 - int，float，str 和 bool。理解這些數據型別對於編寫 Python 程式是至關重要的。請隨意探索更多關於這些型別以及如何在 Python 中使用它們的資訊。
+
 In this tutorial, we covered the basic data types in Python - int, float, str, and bool. Understanding these data types is essential for writing Python programs. Feel free to explore more about these types and how to work with them in Python.
 
 Happy coding!
