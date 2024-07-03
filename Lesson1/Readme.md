@@ -60,6 +60,3 @@ Enter seperator: @@@
 Enter a string: Apple
 Apple@@@Apple@@@Apple@@@Apple@@@Apple
 ```
-
-## Homework
-There is no homework in this lesson

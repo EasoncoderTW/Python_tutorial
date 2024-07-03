@@ -16,27 +16,91 @@ Strings are sequences of characters enclosed in single quotes (''), double quote
 ### 4. Bool (Boolean)
 Booleans represent one of two values: True or False. They are often used in conditional statements and comparisons.
 
-## Examples in Python
+### Examples
 ```python 
-# Integers 
+# Integer
 x = 5 
 y = -3 
- 
-# Floats 
+print(type(x))  # <class 'int'>
+
+# Floats
 pi = 3.14 
 value = 2.5e2 
- 
-# Strings 
+print(type(value))  # <class 'float'>
+
+# Strings
 name = "Alice" 
 message = 'Hello, World!' 
- 
-# Booleans 
-is_true = True 
-is_false = False
+print(type(message))  # <class 'str'>
+
+# Booleans
+a = True
+b = False
+print(type(a))  # <class 'bool'>
+print(type(b))  # <class 'bool'>
 ```
-在這個教程中，我們介紹了 Python 的基本數據型別 - int，float，str 和 bool。理解這些數據型別對於編寫 Python 程式是至關重要的。請隨意探索更多關於這些型別以及如何在 Python 中使用它們的資訊。
+
+## Type Conversion in Python
+
+Type conversion, also known as type casting, is the process of converting a value from one data type to another. Python provides several built-in functions for type conversion.
+
+### Common Type Conversion Functions
+
+1. `int()`: Converts a value to an integer.
+2. `float()`: Converts a value to a floating-point number.
+3. `str()`: Converts a value to a string.
+4. `bool()`: Converts a value to a boolean.
+
+### Examples
+```python
+# Converting float to int
+pi = 3.14
+pi_int = int(pi)
+print(pi_int)  # 3
+
+# Converting int to float
+num = 10
+num_float = float(num)
+print(num_float)  # 10.0
+
+# Converting int to string
+number = 123
+number_str = str(number)
+print(number_str)  # "123"
+
+# Converting string to int
+string = "456"
+string_int = int(string)
+print(string_int)  # 456
+
+# Converting string to float
+string_float = float(string)
+print(string_float)  # 456.0
+
+# Converting different values to boolean
+print(bool(0))  # False
+print(bool(1))  # True
+print(bool(""))  # False
+print(bool("Hello"))  # True
+```
 
 In this tutorial, we covered the basic data types in Python - int, float, str, and bool. Understanding these data types is essential for writing Python programs. Feel free to explore more about these types and how to work with them in Python.
 
-Happy coding!
+## Exercise
+
+1. **Identify Data Types**:
+   Determine the data types of the following values in Python:
+   - 42
+   - 3.14159
+   - "Python"
+   - True
+   - '123'
+   
+2. **Type Conversion Practice**:
+   Convert the following values and print their new data types:
+   - Convert `7.5` to an integer.
+   - Convert `100` to a string.
+   - Convert `"False"` to a boolean.
+   - Convert `0` to a boolean.
+   
 
