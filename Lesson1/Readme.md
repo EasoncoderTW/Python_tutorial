@@ -48,10 +48,18 @@ print("Hello, " + name + "!")
 
 The print function has two common parameters: **sep** and **end**
 ```python
-
+print(string 1, string 2, ... , sep=" ", end="\n") # by default
 ```
+All strings will be printed and separated by the string represented by sep. The default is " " (blank key). And the end will be concatenated with the string represented by end, and the default is a newline symbol `\n`.
 
 ## Excersice
+Please complete the fill in the blanks in the program and make the output string use the input string as the delimiter.
 
+```
+Enter seperator: @@@
+Enter a string: Apple
+Apple@@@Apple@@@Apple@@@Apple@@@Apple
+```
 
 ## Homework
+There is no homework in this lesson
