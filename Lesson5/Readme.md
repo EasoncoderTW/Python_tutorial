@@ -195,4 +195,23 @@ colors.remove("green")
 print(colors)  # Output: {'red', 'blue', 'yellow', 'purple', 'orange'}
 ```
 
+#### Exercise 4: Top 3 Student
+- Suppose you have a dictionary format with student names and grades as follows:
+```python
+student_scores = {
+    "Alice": 85,
+    "Bob": 92,
+    "Carol": 78,
+    "David": 95,
+    "Eve": 88,
+    "Frank": 91,
+}
+
+###  add your code here ###
+
+
+```
+- finish the code that find out the top-3 score student
+
+
 Understanding lists and other array-like structures in Python is fundamental for handling collections of data. Practice these examples and exercises to become proficient in using lists, tuples, dictionaries, and sets.
