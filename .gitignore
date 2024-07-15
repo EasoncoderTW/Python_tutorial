@@ -2,3 +2,5 @@ AI/
 out/
 HackMD/
 __pycache__/
+test/
+temp/
